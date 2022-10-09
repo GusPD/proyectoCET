@@ -1,0 +1,88 @@
+version: "3.6"
+
+services:
+
+  wordpress:
+    image: wordpress:6.0.2
+    container_name: ${APP_NAME}-wordpress
+    expose:
+      - "80"    
+    restart: unless-stopped
+    depends_on:
+      - mysql
+      - nginx-proxy      
+    volumes:
+      - ./wordpress:/var/www/html
+      - ./config/php.ini:/usr/local/etc/php/conf.d/php.ini
+    env_file: .env
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_USER: ${MYSQL_USER}
+      WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD}  
+      WORDPRESS_DB_NAME: ${MYSQL_DATABASE}
+      VIRTUAL_HOST: ${DOMAIN}  #debe ser un dominio válido y DNS apuntando a este servidor
+      LETSENCRYPT_HOST: ${DOMAIN} #debe ser un dominio válido y DNS apuntando a este servidor   
+
+  mysql:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password  
+    container_name: ${APP_NAME}-mysql
+    volumes:
+      - ./db:/var/lib/mysql
+    expose:
+      - "3306"
+    restart: unless-stopped
+    env_file: .env 
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}    
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: ${APP_NAME}-phpmyadmin
+    volumes:
+      - ./config/phpmyadmin.ini:/usr/local/etc/php/conf.d/phpmyadmin.ini
+    restart: unless-stopped   
+    depends_on:      
+      - mysql
+    ports:      
+      - "8080:80"        
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: ${MYSQL_USER}
+      PMA_PASSWORD: ${MYSQL_PASSWORD}
+
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    container_name: ${APP_NAME}-nginx-proxy
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - certs:/etc/nginx/certs
+      - vhost.d:/etc/nginx/vhost.d
+      - ./html:/usr/share/nginx/html
+      
+  nginx-proxy-letsencrypt:
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    container_name: ${APP_NAME}-nginx-proxy-letsencrypt
+    restart: always
+    depends_on:
+      - nginx-proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - certs:/etc/nginx/certs
+      - vhost.d:/etc/nginx/vhost.d
+      - ./html:/usr/share/nginx/html
+    environment:
+      - DEFAULT_EMAIL=awaysv115@gmail.com    #debe ser un email válido
+      - NGINX_PROXY_CONTAINER=nginx-proxy
+
+volumes:
+  certs: {}
+  vhost.d: {}
+
