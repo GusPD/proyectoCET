@@ -1,10 +1,10 @@
-version: "3.6"
+version: "3"
 
 services:
 
   wordpress:
     image: wordpress:6.0.2
-    container_name: ${APP_NAME}-wordpress
+    container_name: wordpress
     expose:
       - "80"    
     restart: unless-stopped
@@ -13,20 +13,19 @@ services:
       - nginx-proxy      
     volumes:
       - ./wordpress:/var/www/html
-      - ./config/php.ini:/usr/local/etc/php/conf.d/php.ini
     env_file: .env
     environment:
       WORDPRESS_DB_HOST: mysql
       WORDPRESS_DB_USER: ${MYSQL_USER}
       WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD}  
       WORDPRESS_DB_NAME: ${MYSQL_DATABASE}
-      VIRTUAL_HOST: ${DOMAIN}  #debe ser un dominio válido y DNS apuntando a este servidor
-      LETSENCRYPT_HOST: ${DOMAIN} #debe ser un dominio válido y DNS apuntando a este servidor   
+      VIRTUAL_HOST: awaysv.ml       #debe ser un dominio válido y DNS apuntando a este servidor
+      LETSENCRYPT_HOST: awaysv.ml    #debe ser un dominio válido y DNS apuntando a este servidor   
 
   mysql:
     image: mysql:8.0
     command: --default-authentication-plugin=mysql_native_password  
-    container_name: ${APP_NAME}-mysql
+    container_name: mysql
     volumes:
       - ./db:/var/lib/mysql
     expose:
@@ -41,9 +40,7 @@ services:
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
-    container_name: ${APP_NAME}-phpmyadmin
-    volumes:
-      - ./config/phpmyadmin.ini:/usr/local/etc/php/conf.d/phpmyadmin.ini
+    container_name: wppma 
     restart: unless-stopped   
     depends_on:      
       - mysql
@@ -52,11 +49,11 @@ services:
     environment:
       PMA_HOST: mysql
       PMA_USER: ${MYSQL_USER}
-      PMA_PASSWORD: ${MYSQL_PASSWORD}
+      PMA_PASSWORD: ${MYSQL_PASSWORD}  
 
   nginx-proxy:
     image: jwilder/nginx-proxy
-    container_name: ${APP_NAME}-nginx-proxy
+    container_name: nginx-proxy
     restart: always
     ports:
       - "80:80"
@@ -69,7 +66,7 @@ services:
       
   nginx-proxy-letsencrypt:
     image: jrcs/letsencrypt-nginx-proxy-companion
-    container_name: ${APP_NAME}-nginx-proxy-letsencrypt
+    container_name: nginx-proxy-letsencrypt
     restart: always
     depends_on:
       - nginx-proxy
@@ -79,10 +76,10 @@ services:
       - vhost.d:/etc/nginx/vhost.d
       - ./html:/usr/share/nginx/html
     environment:
-      - DEFAULT_EMAIL=awaysv115@gmail.com    #debe ser un email válido
+      - DEFAULT_EMAIL=awaysv115@gmail.com #debe ser un email válido
       - NGINX_PROXY_CONTAINER=nginx-proxy
 
 volumes:
   certs: {}
-  vhost.d: {}
+  vhost.d: {} 
 
