@@ -1,0 +1,882 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Advanced Shipment Tracking\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-11 09:34+0000\n"
+"PO-Revision-Date: 2022-08-12 09:32+0000\n"
+"Last-Translator: John Doe\n"
+"Language-Team: Hindi\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.1"
+
+#. %s: search WooCommerce plugin link
+#: includes/views/admin_options_shipping_provider.php:91
+#, php-format
+msgid "<a href=\"%s\" target=\"blank\">documentation</a>"
+msgstr "<a href=\"%s\" target=\"blank\"> प्रलेखन </a>"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:2063
+msgid "Add API Name alias"
+msgstr "एपीआई नाम उपनाम जोड़ें"
+
+#: includes/views/admin_options_shipping_provider.php:65
+msgid ""
+"Add API name aliases to map Shipping providers names with the provider names "
+"that are updated in the shipment tracking API by external shipping services"
+msgstr ""
+"बाहरी शिपिंग सेवाओं द्वारा शिपमेंट ट्रैकिंग एपीआई में अपडेट किए गए प्रदाता "
+"नामों के साथ शिपिंग प्रदाताओं के नामों को मैप करने के लिए एपीआई नाम उपनाम "
+"जोड़ें"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1552
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1664
+msgid "Add Custom Provider"
+msgstr "कस्टम प्रदाता जोड़ें"
+
+#. Description of the plugin
+msgid ""
+"Add shipment tracking information to your WooCommerce orders and provide "
+"customers with an easy way to track their orders. Shipment tracking Info "
+"will appear in customers accounts (in the order panel) and in WooCommerce "
+"order complete email."
+msgstr ""
+"अपने WooCommerce ऑर्डर में शिपमेंट ट्रैकिंग जानकारी जोड़ें और ग्राहकों को "
+"उनके ऑर्डर ट्रैक करने का एक आसान तरीका प्रदान करें। शिपमेंट ट्रैकिंग जानकारी "
+"ग्राहकों के खातों में (ऑर्डर पैनल में) और WooCommerce ऑर्डर पूर्ण ईमेल में "
+"दिखाई देगी।"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:509
+msgid "add the [wcast-track-order] shortcode in the selected page."
+msgstr "चयनित पृष्ठ में [wcast-track-order] शोर्टकोड जोड़ें।"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1524
+msgid "Add Tracking"
+msgstr "ट्रैकिंग जोड़ें"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:507
+msgid "Add Tracking - order\t"
+msgstr "ट्रैकिंग जोड़ें - आदेश"
+
+#: includes/class-wc-advanced-shipment-tracking.php:517
+msgid "Add Tracking Info"
+msgstr "ट्रैकिंग जानकारी जोड़ें"
+
+#: includes/views/admin_options_settings.php:30
+msgid "Add Tracking Options"
+msgstr "ट्रैकिंग विकल्प जोड़ें"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:627
+msgid "Add Tracking Order action"
+msgstr "ट्रैकिंग आदेश क्रिया जोड़ें"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:724
+msgid "Additional Order Emails Display"
+msgstr "अतिरिक्त आदेश ईमेल प्रदर्शन"
+
+#: includes/customizer/ast-customizer.php:482
+msgid "Additional text after header"
+msgstr "हेडर के बाद अतिरिक्त पाठ"
+
+#. Name of the plugin
+msgid "Advanced Shipment Tracking for WooCommerce"
+msgstr "WooCommerce के लिए उन्नत शिपमेंट ट्रैकिंग"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1601
+msgid "API aliases"
+msgstr "एपीआई उपनाम"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:749
+msgid "API Date Format"
+msgstr "एपीआई दिनांक प्रारूप"
+
+#: includes/views/admin_options_shipping_provider.php:67
+msgid "API Name"
+msgstr "एपीआई का नाम"
+
+#: includes/customizer/ast-customizer.php:89
+msgid "AST Customizer"
+msgstr "एएसटी अनुकूलक"
+
+#: includes/customizer/ast-customizer.php:678
+msgid "Available Placeholders:"
+msgstr "उपलब्ध प्लेसहोल्डर:"
+
+#: includes/customizer/ast-customizer.php:522
+msgid "Background color"
+msgstr "पीछे का रंग"
+
+#: includes/customizer/ast-customizer.php:530
+msgid "Border color"
+msgstr ""
+"किनारे का रंग\n"
+
+#: includes/customizer/ast-customizer.php:538
+msgid "Border radius"
+msgstr "सीमा त्रिज्या"
+
+#: includes/customizer/ast-customizer.php:586
+msgid "Button color"
+msgstr "बटन का रंग"
+
+#: includes/customizer/ast-customizer.php:594
+msgid "Button font color"
+msgstr "बटन फ़ॉन्ट रंग"
+
+#: includes/customizer/ast-customizer.php:602
+msgid "Button radius"
+msgstr "बटन त्रिज्या"
+
+#: includes/customizer/ast-customizer.php:574
+msgid "Button size"
+msgstr "बटन के आकार"
+
+#: includes/customizer/ast-customizer.php:564
+msgid "Button text"
+msgstr "टेक्स्ट बटन"
+
+#: includes/api/class-wc-advanced-shipment-tracking-rest-api-controller.php:222
+msgid "Cannot create existing order shipment tracking."
+msgstr "मौजूदा ऑर्डर शिपमेंट ट्रैकिंग नहीं बना सकता।"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:220
+msgid "Change order status to"
+msgstr "ऑर्डर की स्थिति बदलें"
+
+#. %s: search order status label
+#: includes/class-wc-advanced-shipment-tracking-settings.php:186
+#: includes/class-wc-advanced-shipment-tracking-settings.php:376
+#: includes/class-wc-advanced-shipment-tracking-settings.php:387
+#, php-format
+msgid "Change status to %s"
+msgstr "स्थिति को %s . में बदलें"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:467
+msgid "Change status to shipped"
+msgstr "शिप करने की स्थिति बदलें"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:750
+msgid "Choose for which Order status to display"
+msgstr "चुनें कि किस ऑर्डर की स्थिति प्रदर्शित करनी है"
+
+#: includes/views/admin_options_bulk_upload.php:32
+msgid "Choose the Shipped Date format"
+msgstr "Choose the Shipped Date format"
+
+#: includes/class-wc-advanced-shipment-tracking.php:467
+msgid "Completed"
+msgstr "पूरा कर लिया है"
+
+#: includes/views/admin_options_bulk_upload.php:55
+msgid "Continue"
+msgstr "जारी रखें"
+
+#: includes/views/admin_options_shipping_provider.php:72
+msgid "Country"
+msgstr "देश"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:274
+#: includes/class-wc-advanced-shipment-tracking-admin.php:278
+#: includes/views/admin_options_bulk_upload.php:8
+msgid "CSV Import"
+msgstr "CSV आयात"
+
+#: includes/views/admin_options_shipping_provider.php:65
+msgid "Custom API name"
+msgstr "कस्टम एपीआई नाम"
+
+#: includes/views/admin_options_shipping_provider.php:61
+msgid "Custom display name"
+msgstr "कस्टम प्रदर्शन नाम"
+
+#: includes/views/admin_options_shipping_provider.php:82
+msgid "Custom URL"
+msgstr "कस्टम यूआरएल"
+
+#: includes/views/admin_options_settings.php:46
+msgid "Customer View"
+msgstr "ग्राहक दृश्य"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:406
+#: includes/class-wc-advanced-shipment-tracking-admin.php:526
+msgid "Customize"
+msgstr "अनुकूलित करें"
+
+#: includes/views/admin_options_osm.php:63
+msgid "Dark Font"
+msgstr ""
+"डार्क फॉन्ट\n"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:166
+msgid "Data saved successfully."
+msgstr "डेटा सफलतापूर्वक सहेजा गया।"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:544
+#: includes/class-wc-advanced-shipment-tracking.php:369
+msgid "Date shipped:"
+msgstr "जिस तारीख पर भेजा गया:"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:897
+#: includes/class-wc-advanced-shipment-tracking-settings.php:136
+#: includes/class-wc-advanced-shipment-tracking-settings.php:154
+#: includes/class-wc-advanced-shipment-tracking-settings.php:208
+msgid "Delivered"
+msgstr "पहुंचा दिया"
+
+#. %s: search number of order
+#: includes/class-wc-advanced-shipment-tracking-settings.php:142
+#, php-format
+msgid "Delivered <span class=\"count\">(%s)</span>"
+msgid_plural "Delivered <span class=\"count\">(%s)</span>"
+msgstr[0] "वितरित <span class=\"count\">(%s)</span>"
+msgstr[1] "वितरित <span class=\"count\">(%s)</span>"
+
+#: includes/customizer/ast-customizer.php:499
+msgid "Display shipment status section"
+msgstr "शिपमेंट स्थिति अनुभाग प्रदर्शित करें"
+
+#: includes/views/admin_options_bulk_upload.php:117
+msgid "Download sample csv"
+msgstr "नमूना CSV डाउनलोड करें"
+
+#: includes/views/admin_options_shipping_provider.php:51
+msgid "Edit Shipping Provider"
+msgstr "शिपिंग प्रदाता संपादित करें"
+
+#: includes/customizer/ast-customizer.php:390
+#: includes/customizer/ast-customizer.php:391
+#: includes/customizer/ast-customizer.php:400
+#: includes/customizer/ast-customizer.php:444
+#: includes/customizer/ast-customizer.php:445
+#: includes/customizer/ast-customizer.php:622
+msgid "Email Content"
+msgstr "ईमेल सामग्री"
+
+#: includes/customizer/ast-customizer.php:666
+msgid "Email content"
+msgstr "ईमेल सामग्री"
+
+#: includes/customizer/ast-customizer.php:704
+msgid "Email Customizer"
+msgstr "ईमेल अनुकूलक"
+
+#: includes/customizer/ast-customizer.php:654
+msgid "Email heading"
+msgstr "ईमेल शीर्षक"
+
+#: includes/customizer/ast-customizer.php:643
+msgid "Email Subject"
+msgstr "ईमेल विषय"
+
+#: includes/customizer/ast-customizer.php:629
+#| msgid "Email Type"
+msgid "Email type"
+msgstr "ईमेल प्रकार"
+
+#: includes/customizer/ast-customizer.php:865
+msgid "Enable email"
+msgstr "ईमेल सक्षम करें"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:731
+msgid "Enable Track button in orders history (actions)"
+msgstr "ऑर्डर इतिहास (कार्रवाइयां) में ट्रैक बटन सक्षम करें"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1990
+msgid "Filter by shipping provider"
+msgstr "शिपिंग प्रदाता द्वारा फ़िल्टर करें"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:555
+msgid "Fulfill Order"
+msgstr "आदेश पूरा करें"
+
+#: includes/views/admin_options_settings.php:14
+#| msgid "Fulfillement WorkFlow"
+msgid "Fulfillment WorkFlow"
+msgstr "पूर्ति कार्यप्रवाह"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:310
+#: includes/class-wc-advanced-shipment-tracking-admin.php:314
+msgid "General Settings"
+msgstr "सामान्य सेटिंग्स"
+
+#: includes/views/admin_options_shipping_provider.php:75
+msgid "Global"
+msgstr "वैश्विक"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:248
+msgid "Go Pro"
+msgstr "पेशेवर बनो"
+
+#: templates/emails/customer-updated-tracking-order.php:24
+msgid ""
+"Hi there. we thought you'd like to know that the shipment tracking for your "
+"recent order from {site_title} has been updated."
+msgstr ""
+"नमस्ते। हमने सोचा था कि आप जानना चाहेंगे कि {site_title} से आपके हाल के आदेश "
+"की शिपमेंट ट्रैकिंग अपडेट कर दी गई है."
+
+#: includes/customizer/ast-customizer.php:331
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} has been partially shipped."
+msgstr ""
+"नमस्ते। हमने सोचा था कि आप जानना चाहते हैं कि {site_title} से आपका हालिया "
+"ऑर्डर आंशिक रूप से शिप किया गया है।\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:805
+#: includes/class-wc-advanced-shipment-tracking-settings.php:822
+#: includes/class-wc-advanced-shipment-tracking-settings.php:839
+msgid "hide details"
+msgstr "जानकारी छिपाएँ"
+
+#: includes/customizer/ast-customizer.php:548
+#| msgid "Display shipping provider image"
+msgid "Hide shipping provider image"
+msgstr "शिपिंग प्रदाता छवि प्रदर्शित करें"
+
+#: includes/customizer/ast-customizer.php:463
+#| msgid "Hide Tracking Header"
+msgid "Hide tracking header"
+msgstr "ट्रैकिंग हैडर छिपाएँ"
+
+#: includes/views/admin_options_bulk_upload.php:118
+msgid "How to import tracking number from CSV files?"
+msgstr "सीएसवी फाइलों से ट्रैकिंग नंबर कैसे आयात करें?"
+
+#. Author URI of the plugin
+msgid "https://www.zorem.com"
+msgstr "https://www.zorem.com"
+
+#. URI of the plugin
+msgid "https://www.zorem.com/products/woocommerce-advanced-shipment-tracking/"
+msgstr "https://www.zorem.com/products/woocommerce-advanced-shipment-tracking/"
+
+#: includes/views/admin_options_bulk_upload.php:74
+msgid "Import in Progress"
+msgstr "प्रगति में आयात"
+
+#: includes/api/class-wc-advanced-shipment-tracking-rest-api-controller.php:231
+msgid "Invalid order ID."
+msgstr "अमान्य आदेश आईडी।"
+
+#: includes/views/admin_options_bulk_upload.php:46
+msgid ""
+"Keep unchecked for the tracking info to be added to any existing tracking "
+"info added to the orders."
+msgstr ""
+"आदेश में जोड़े गए किसी भी मौजूदा ट्रैकिंग जानकारी में ट्रैकिंग जानकारी "
+"जोड़ने के लिए अनियंत्रित रखें।"
+
+#: includes/customizer/ast-customizer.php:580
+msgid "Large"
+msgstr "विशाल"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:248
+msgid "License"
+msgstr "लाइसेंस"
+
+#: includes/views/admin_options_osm.php:62
+msgid "Light Font"
+msgstr ""
+"प्रकाश फ़ॉन्ट\n"
+
+#: includes/class-wc-advanced-shipment-tracking.php:300
+msgid "Mark as Completed?"
+msgstr "पूर्ण के रूप में चिह्नित करें?"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1533
+msgid "Mark as Shipped"
+msgstr "Mark as Shipped"
+
+#: includes/class-wc-advanced-shipment-tracking.php:297
+msgid "Mark as Shipped?"
+msgstr "मार्क के रूप में भेज दिया?"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:245
+msgid "Mark order as delivered"
+msgstr "वितरित के रूप में मार्क आदेश"
+
+#: includes/class-wc-advanced-shipment-tracking.php:492
+msgid "Mark order as:"
+msgstr "आदेश के रूप में चिह्नित करें:"
+
+#: includes/customizer/ast-customizer.php:1081
+msgid "Mockup Order"
+msgstr "नकली आदेश"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:510
+msgid "more info"
+msgstr ""
+"और जानकारी\n"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:2063
+msgid "Multiple API names mapping is a pro features"
+msgstr "एकाधिक एपीआई नाम मानचित्रण एक समर्थक विशेषताएं हैं"
+
+#: includes/customizer/ast-customizer.php:579
+msgid "Normal"
+msgstr "सामान्य"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:737
+msgid "Open the Track Button link in a new tab"
+msgstr "ट्रैक बटन लिंक को एक नए टैब में खोलें"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:319
+#: includes/class-wc-advanced-shipment-tracking-admin.php:323
+msgid "Order Statuses"
+msgstr "आदेश की स्थिति"
+
+#. %1$s: Reaplce with tracking provider, %2$s: Reaplce with tracking number
+#: includes/class-wc-advanced-shipment-tracking.php:1303
+#, php-format
+#| msgid "Order was shipped with %s and tracking number is: %s"
+msgid "Order was shipped with %1$s and tracking number is: %2$s"
+msgstr "ऑर्डर %1$s के साथ शिप किया गया था और ट्रैकिंग नंबर है: %2$s"
+
+#. %s: Reaplce with tracking provider, %s: Reaplce with tracking number
+#: includes/class-wc-advanced-shipment-tracking.php:1227
+#, php-format
+msgid "Order was shipped with %s and tracking number is: %s"
+msgstr "ऑर्डर %s के साथ शिप किया गया था और ट्रैकिंग नंबर है: %s"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:502
+msgid "Other"
+msgstr "अन्य"
+
+#: includes/class-wc-advanced-shipment-tracking.php:483
+msgid "Partial Shipped"
+msgstr "आंशिक भेज दिया"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:886
+#: includes/class-wc-advanced-shipment-tracking-settings.php:275
+#: includes/class-wc-advanced-shipment-tracking-settings.php:307
+#: includes/customizer/ast-customizer.php:129
+#: includes/customizer/ast-customizer.php:361
+#: includes/customizer/ast-customizer.php:616
+msgid "Partially Shipped"
+msgstr "आंशिक रूप से भेजा गया"
+
+#. %s: replace with Partially Shipped Count
+#: includes/class-wc-advanced-shipment-tracking-settings.php:281
+#, php-format
+msgid "Partially Shipped <span class=\"count\">(%s)</span>"
+msgid_plural "Partially Shipped <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+"आंशिक रूप से भेज दिया गया <span class=\"count\">(%s)</span>\n"
+msgstr[1] ""
+"आंशिक रूप से भेज दिया गया <span class=\"count\">(%s)</span>\n"
+
+#. %s: search WooCommerce plugin link
+#: woocommerce-advanced-shipment-tracking.php:181
+#, php-format
+msgid ""
+"Please install and activate %1$sWooCommerce%2$s for Advanced Shipment "
+"Tracking for WooCommerce!"
+msgstr ""
+"WooCommerce के लिए उन्नत शिपमेंट ट्रैकिंग के लिए कृपया %1$sWooCommerce%2$s "
+"स्थापित और सक्रिय करें!"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:170
+msgid "Please upload a valid CSV file."
+msgstr "कृपया एक मान्य CSV फ़ाइल अपलोड करें।"
+
+#: includes/class-wc-advanced-shipment-tracking.php:387
+msgid "Preview:"
+msgstr "पूर्वावलोकन:"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:540
+#: includes/class-wc-advanced-shipment-tracking.php:361
+msgid "Product Code:"
+msgstr "उत्पाद कोड:"
+
+#: templates/emails/plain/tracking-info.php:32
+msgid "Provider"
+msgstr "प्रदाता"
+
+#: includes/views/admin_options_shipping_provider.php:57
+msgid "Provider Name"
+msgstr "प्रदाता का नाम"
+
+#: includes/views/admin_options_shipping_provider.php:116
+msgid "Providers Added"
+msgstr "प्रदाता जोड़े गए"
+
+#: includes/views/admin_options_shipping_provider.php:118
+msgid "Providers Deleted"
+msgstr "प्रदाता हटा दिए गए"
+
+#: includes/views/admin_options_shipping_provider.php:117
+msgid "Providers Updated"
+msgstr "प्रदाताओं अद्यतन"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:167
+msgid "Really delete this entry? This will not be undo."
+msgstr "वास्तव में इस प्रविष्टि को हटा दें? यह पूर्ववत नहीं होगा।"
+
+#: includes/views/admin_options_osm.php:11
+msgid "Rename the “Completed” Order status label to “Shipped”"
+msgstr "\"पूर्ण\" ऑर्डर स्थिति लेबल का नाम बदलकर \"भेज दिया गया\" कर दें"
+
+#: includes/views/admin_options_bulk_upload.php:46
+msgid "Replace tracking information?"
+msgstr "ट्रैकिंग जानकारी बदलें?"
+
+#: includes/views/admin_options_shipping_provider.php:100
+msgid "Reset"
+msgstr "रीसेट"
+
+#: includes/views/admin_options_shipping_provider.php:122
+msgid ""
+"Reset providers database, it will reset all your shipping provider database"
+msgstr ""
+"प्रदाता डेटाबेस को रीसेट करें, यह आपके सभी शिपिंग प्रदाता डेटाबेस को रीसेट "
+"कर देगा"
+
+#: includes/views/admin_options_settings.php:17
+#: includes/views/admin_options_settings.php:33
+#: includes/views/admin_options_settings.php:49
+#: includes/views/admin_options_settings.php:65
+msgid "Save & Close"
+msgstr "सहेजे बंद करें"
+
+#: includes/class-wc-advanced-shipment-tracking.php:384
+msgid "Save Tracking"
+msgstr "ट्रैकिंग सहेजें"
+
+#: includes/customizer/ast-customizer.php:155
+msgid "Saved"
+msgstr "बचाया"
+
+#: includes/views/admin_options_shipping_provider.php:27
+msgid "Search by provider / country"
+msgstr "प्रदाता / देश द्वारा खोजें"
+
+#: includes/class-wc-advanced-shipment-tracking.php:323
+msgid "Select Provider"
+msgstr "Select Provider"
+
+#: includes/views/admin_options_osm.php:72
+msgid "Send Email"
+msgstr ""
+"ईमेल भेजें\n"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:621
+msgid ""
+"Set the \"mark as shipped\" option checked  when adding tracking info to "
+"orders"
+msgstr ""
+"ऑर्डर में ट्रैकिंग जानकारी जोड़ते समय चेक किए गए \"शिप किए गए के रूप में "
+"चिह्नित करें\" विकल्प सेट करें"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:214
+#: includes/class-wc-advanced-shipment-tracking-admin.php:256
+#: includes/class-wc-advanced-shipment-tracking-admin.php:260
+msgid "Settings"
+msgstr "समायोजन"
+
+#: includes/views/admin_options_bulk_upload.php:57
+msgid "Settings Saved."
+msgstr "सेटिंग्स को सहेजा गया।"
+
+#. %s: replace with status
+#: templates/emails/plain/tracking-info.php:28
+#, php-format
+msgid "Shipment status changed to %s"
+msgstr "शिपमेंट स्थिति% s में बदल गई"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:182
+#: includes/class-wc-advanced-shipment-tracking-admin.php:214
+#: includes/class-wc-advanced-shipment-tracking.php:138
+#: includes/class-wc-advanced-shipment-tracking.php:219
+msgid "Shipment Tracking"
+msgstr "नौवहन पर नज़र रखना"
+
+#: includes/views/admin_options_settings.php:62
+msgid "Shipment Tracking API"
+msgstr "शिपमेंट ट्रैकिंग एपीआई"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:543
+#: includes/class-wc-advanced-shipment-tracking-admin.php:639
+#: includes/class-wc-advanced-shipment-tracking-settings.php:431
+#: includes/class-wc-advanced-shipment-tracking.php:467
+#: includes/customizer/ast-customizer.php:125
+#: includes/customizer/ast-customizer.php:351
+#: templates/emails/fluid-tracking-info.php:92
+#: templates/emails/fluid-tracking-info.php:113
+msgid "Shipped"
+msgstr "भेज दिया"
+
+#. %s: replace with shipped order count
+#: includes/class-wc-advanced-shipment-tracking-settings.php:451
+#, php-format
+msgid "Shipped <span class=\"count\">(%s)</span>"
+msgid_plural "Shipped <span class=\"count\">(%s)</span>"
+msgstr[0] "भेज दिया गया <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+"भेज दिया गया <span class=\"count\">(%s)</span>\n"
+
+#: templates/emails/fluid-tracking-info.php:95
+#: templates/emails/fluid-tracking-info.php:116
+msgid "Shipped on"
+msgstr "पर भेज दिया गया"
+
+#. 1: shipping date
+#: includes/class-wc-advanced-shipment-tracking.php:255
+#, php-format
+msgid "Shipped on %s"
+msgstr "% S पर भेज दिया गया"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1488
+msgid "Shipped Order"
+msgstr "आदेश भेज दिया"
+
+#: includes/views/admin_options_shipping_provider.php:74
+msgid "Shipping Country"
+msgstr "शिपिंग देश"
+
+#: includes/views/admin_options_shipping_provider.php:58
+msgid "Shipping Provider"
+msgstr "शिपिंग प्रदाता"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:518
+#: includes/class-wc-advanced-shipment-tracking-settings.php:520
+#: includes/class-wc-advanced-shipment-tracking.php:321
+msgid "Shipping Provider:"
+msgstr "शिपिंग प्रदाता:"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:265
+#: includes/class-wc-advanced-shipment-tracking-admin.php:269
+msgid "Shipping Providers"
+msgstr "नौवहन प्रदाता"
+
+#: includes/views/admin_options_shipping_provider.php:120
+msgid "Shipping providers database reset successfully."
+msgstr "शिपिंग प्रदाताओं डेटाबेस सफलतापूर्वक रीसेट।"
+
+#: includes/api/class-wc-advanced-shipment-tracking-rest-api-controller.php:235
+msgid "Special character not allowd in tracking number"
+msgstr "विशेष वर्ण ट्रैकिंग नंबर में अनुमति नहीं है"
+
+#: includes/views/admin_options_shipping_provider.php:110
+#: includes/views/admin_options_shipping_provider.php:124
+msgid "Sync Shipping Providers"
+msgstr "सिंक शिपिंग प्रदाता"
+
+#: includes/views/admin_options_shipping_provider.php:114
+msgid ""
+"Syncing the shipping providers list add or updates the pre-set shipping "
+"providers and will not effect custom shipping providers."
+msgstr ""
+"शिपिंग प्रदाताओं की सूची को जोड़ना पूर्व-निर्धारित शिपिंग प्रदाताओं को जोड़ "
+"या अपडेट करता है और कस्टम शिपिंग प्रदाताओं को प्रभावित नहीं करेगा।"
+
+#: includes/views/admin_options_shipping_provider.php:61
+msgid ""
+"The custom display name will show in the tracking info section on the "
+"customer order emails, my-account, and TrackShip's tracking page and email "
+"notifications"
+msgstr ""
+"कस्टम प्रदर्शन नाम ग्राहक आदेश ईमेल, मेरा खाता, और ट्रैकशिप के ट्रैकिंग "
+"पृष्ठ और ईमेल सूचनाओं पर ट्रैकिंग जानकारी अनुभाग में दिखाई देगा।"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:787
+msgid "There are some issue with sync, Please Retry."
+msgstr "सिंक के साथ कुछ समस्याएँ हैं, कृपया पुनः प्रयास करें।"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:169
+msgid "This browser does not support HTML5."
+msgstr "यह ब्राउज़र HTML5 का समर्थन नहीं करता है।"
+
+#: includes/class-wc-advanced-shipment-tracking.php:784
+#: includes/class-wc-advanced-shipment-tracking.php:817
+#: includes/class-wc-advanced-shipment-tracking.php:835
+#: templates/emails/plain/tracking-info.php:34
+msgid "Track"
+msgstr "धावन पथ"
+
+#: includes/class-wc-advanced-shipment-tracking.php:242
+#: includes/class-wc-advanced-shipment-tracking.php:387
+msgid "Track Shipment"
+msgstr "शिपमेंट ट्रैक करना"
+
+#: includes/customizer/ast-customizer.php:319
+msgid "Track Your Order"
+msgstr "अपने आदेश को देखो"
+
+#: includes/customizer/ast-customizer.php:508
+msgid "Tracker type"
+msgstr "ट्रैकर प्रकार"
+
+#: includes/customizer/ast-customizer.php:435
+#: includes/customizer/ast-customizer.php:558
+#| msgid "Track Button"
+msgid "Tracking Button"
+msgstr "ट्रैक बटन"
+
+#: includes/customizer/ast-customizer.php:472
+#| msgid "Tracking Header text"
+msgid "Tracking header text"
+msgstr ""
+"ट्रैकिंग हैडर पाठ\n"
+
+#. %s: Reaplce with tracking provider, %s: Reaplce with tracking number
+#: includes/class-wc-advanced-shipment-tracking.php:741
+#, php-format
+#| msgid ""
+#| "Tracking info was deleted for tracking provider %1$s with tracking number "
+#| "%2$s"
+msgid ""
+"Tracking info was deleted for tracking provider %s with tracking number %s"
+msgstr ""
+"ट्रैकिंग नंबर %s . के साथ ट्रैकिंग प्रदाता %s के लिए ट्रैकिंग जानकारी हटाई गई"
+
+#: templates/emails/plain/tracking-info.php:33
+msgid "Tracking Number"
+msgstr "खोज संख्या"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:514
+#: includes/class-wc-advanced-shipment-tracking.php:317
+msgid "Tracking number:"
+msgstr "खोज संख्या:"
+
+#: includes/customizer/ast-customizer.php:381
+#: includes/customizer/ast-customizer.php:382
+#: includes/customizer/ast-customizer.php:408
+#: includes/customizer/ast-customizer.php:418
+#: includes/customizer/ast-customizer.php:427
+#: includes/customizer/ast-customizer.php:436
+msgid "Tracking Widget"
+msgstr "ट्रैकिंग विजेट"
+
+#: includes/views/admin_options_shipping_provider.php:99
+msgid "Update"
+msgstr "अपडेट करें"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:914
+#: includes/class-wc-advanced-shipment-tracking-settings.php:260
+#: includes/class-wc-advanced-shipment-tracking-settings.php:293
+#: includes/class-wc-advanced-shipment-tracking-settings.php:412
+msgid "Updated Tracking"
+msgstr "अपडेटेड ट्रैकिंग"
+
+#. %s: replace with Updated Tracking Count
+#: includes/class-wc-advanced-shipment-tracking-settings.php:266
+#, php-format
+msgid "Updated Tracking <span class=\"count\">(%s)</span>"
+msgid_plural "Updated Tracking <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+"अपडेट किया गया ट्रैकिंग <span class=\"count\">(%s)</span>\n"
+msgstr[1] ""
+"अपडेट किया गया ट्रैकिंग <span class=\"count\">(%s)</span>\n"
+
+#: includes/views/admin_options_bulk_upload.php:24
+msgid "Upload a CSV file from your computer:"
+msgstr "अपने कंप्यूटर से CSV फ़ाइल अपलोड करें:"
+
+#: includes/views/admin_options_bulk_upload.php:107
+msgid "Upload again"
+msgstr "फिर से अपलोड करें"
+
+#: includes/views/admin_options_bulk_upload.php:9
+msgid ""
+"Use our CSV Import Tool  to bulk Import tracking info to orders from a CSV "
+"file"
+msgstr ""
+"CSV फ़ाइल से ऑर्डर करने के लिए ट्रैकिंग जानकारी आयात करने के लिए हमारे CSV "
+"आयात उपकरण का उपयोग करें"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:804
+#: includes/class-wc-advanced-shipment-tracking-settings.php:821
+#: includes/class-wc-advanced-shipment-tracking-settings.php:838
+#: includes/views/admin_options_bulk_upload.php:85
+msgid "view details"
+msgstr "विवरण देखें"
+
+#: includes/views/admin_options_bulk_upload.php:106
+msgid "View Orders"
+msgstr "View Orders"
+
+#. %s: replace with Partially Shipped order count
+#: woocommerce-advanced-shipment-tracking.php:478
+#, php-format
+msgid ""
+"We detected %s orders that use the Delivered order status, You can reassign "
+"these orders to a different status"
+msgstr ""
+"हमने उन %s आदेशों का पता लगाया है जो वितरित आदेश स्थिति का उपयोग करते हैं, "
+"आप इन आदेशों को किसी भिन्न स्थिति में पुन: असाइन कर सकते हैं"
+
+#. %s: replace with Partially Shipped order count
+#: woocommerce-advanced-shipment-tracking.php:460
+#, php-format
+msgid ""
+"We detected %s orders that use the Partially Shipped order status, You can "
+"reassign these orders to a different status"
+msgstr ""
+"हमने% s आदेशों का पता लगाया जो आंशिक रूप से शिप आदेश स्थिति का उपयोग करते "
+"हैं, आप इन आदेशों को एक अलग स्थिति में पुन: असाइन कर सकते हैं"
+
+#: includes/views/admin_options_shipping_provider.php:62
+msgid "White Label Provider Name"
+msgstr "व्हाइट लेबल प्रदाता का नाम"
+
+#: includes/customizer/ast-customizer.php:417
+#: includes/customizer/ast-customizer.php:455
+msgid "Widget Header"
+msgstr "विजेट हैडर"
+
+#: includes/customizer/ast-customizer.php:426
+#: includes/customizer/ast-customizer.php:493
+msgid "Widget Style"
+msgstr "विजेट शैली"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:545
+#: includes/class-wc-advanced-shipment-tracking.php:370
+#: includes/class-wc-advanced-shipment-tracking.php:373
+msgid "Y-m-d"
+msgstr "वाई-एम-डी"
+
+#: includes/customizer/ast-customizer.php:702
+msgid "You are customizing"
+msgstr "आप अनुकूलित कर रहे हैं"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:168
+msgid "You can upload only csv file."
+msgstr "आप केवल csv फ़ाइल अपलोड कर सकते हैं।"
+
+#. %s: search WooCommerce plugin link
+#: includes/views/admin_options_shipping_provider.php:89
+msgid ""
+"You can use the variables %number%, %postal_code% and %country_code% in the "
+"URL, for more info, check our "
+msgstr ""
+"आप URL में चर संख्या%,% postal_code% और% country_code% का उपयोग कर सकते हैं, "
+"अधिक जानकारी के लिए, हमारी जाँच करें"
+
+#. %s: replace with status
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1659
+#, php-format
+msgid "You did not create any %s shipping providers yet."
+msgstr "आपने अभी तक कोई% s शिपिंग प्रदाता नहीं बनाए हैं।"
+
+#. %s: replace with status
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1670
+#, php-format
+msgid "You don't have any %s shipping providers."
+msgstr "आपके पास कोई% s शिपिंग प्रदाता नहीं हैं।"
+
+#: includes/customizer/ast-customizer.php:330
+msgid "Your Order is Partially Shipped"
+msgstr "आपका आदेश आंशिक रूप से भेज दिया गया है"
+
+#: includes/customizer/ast-customizer.php:329
+msgid "Your {site_title} order is now partially shipped"
+msgstr "आपका {site_title} आदेश अब आंशिक रूप से शिप किया गया है"
+
+#. Author of the plugin
+msgid "zorem"
+msgstr "ज़ोरेम"
