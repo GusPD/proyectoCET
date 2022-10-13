@@ -40,7 +40,7 @@ services:
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
-    container_name: wppma 
+    container_name: phpmyadmin 
     restart: unless-stopped   
     depends_on:      
       - mysql
