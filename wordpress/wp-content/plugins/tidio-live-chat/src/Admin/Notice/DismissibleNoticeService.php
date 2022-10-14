@@ -49,7 +49,7 @@ class DismissibleNoticeService
             return;
         }
 
-        if (str_contains($script, 'data-tidio-dismissible-url="{dismiss_url}"') === false) {
+        if (strpos($script, 'data-tidio-dismissible-url="{dismiss_url}"') === false) {
             throw new \RuntimeException('Given script should contains \'data-tidio-dismissible-url={dismiss_url}\' to inject dismissible script.');
         }
 

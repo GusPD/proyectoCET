@@ -8,11 +8,11 @@ use TidioLiveChat\Translation\I18n;
 
 <div>
     <style>
-        .notice {
+        .tidio-notice-wrapper.notice {
             display: flex;
             position: relative;
         }
-        .notice p {
+        .tidio-notice-wrapper.notice p {
             
             font-weight: 400;
             font-size: 12px;
@@ -20,14 +20,14 @@ use TidioLiveChat\Translation\I18n;
             letter-spacing: -0.01em;
             margin: 12px 0;
         }
-        .notice p.header {
+        .tidio-notice-wrapper.notice p.header {
             font-size: 14px;
             line-height: 18px;
         }
-        .notice p strong {
+        .tidio-notice-wrapper.notice p strong {
             font-weight: 600;
         }
-        .link.button {
+        .tidio-notice-wrapper .link.button {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -40,29 +40,29 @@ use TidioLiveChat\Translation\I18n;
             margin-right: 24px;
             margin-left: auto;
         }
-        section {
+        .tidio-notice-wrapper section {
             margin-right: 48px;
         } 
-        section:last-child {
+        .tidio-notice-wrapper section:last-child {
             margin-right: 24px;
         }
-        .link.button:hover {
+        .tidio-notice-wrapper .link.button:hover {
             color: #fff;
             background-color: #0049bd;
         }
-        .notice-content {
+        .tidio-notice-wrapper .notice-content {
             display: flex;
             flex-direction: row;
             align-items: center;
             min-width: 100%;
         }
-        .logo {
+        .tidio-notice-wrapper .logo {
             width: 32px;
             height: 32px;
             margin-left: 24px;
             margin-right: 24px;
         }
-        .dissmiss-button {
+        .tidio-notice-wrapper .dissmiss-button {
             position: absolute;
             top: 4px;
             right: 4px;
@@ -70,24 +70,24 @@ use TidioLiveChat\Translation\I18n;
             cursor: pointer;
         }
         @media screen and (max-width: 782px) {
-            .notice-content {
+            .tidio-notice-wrapper .notice-content {
                 display: block;
             }
-            .link.button {
+            .tidio-notice-wrapper .link.button {
                 display: inline-flex;
                 margin-right: 0;
                 margin-left: 0;
                 align-self: flex-start;
             }
-            .logo {
+            .tidio-notice-wrapper .logo {
                 display: none;
             }
-            section:last-child {
+            .tidio-notice-wrapper section:last-child {
                 margin-right: 0;
             }
         }
     </style>
-    <div class="notice notice-info">
+    <div class="tidio-notice-wrapper notice notice-info">
         <div class="notice-content">
             <div class="logo">
                 <svg

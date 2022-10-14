@@ -33,6 +33,7 @@ class AdminNotice
         $this->dismissibleNoticeService = $dismissibleNoticeService;
 
         add_action('admin_notices', [$this, 'addAdminErrorNotice']);
+        add_action('admin_notices', [$this, 'addPhp72RequirementDismissibleNotice']);
     }
 
     public function addAdminErrorNotice()

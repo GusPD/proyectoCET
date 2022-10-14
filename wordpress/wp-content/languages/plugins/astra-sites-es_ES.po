@@ -2,14 +2,62 @@
 # This file is distributed under the same license as the Plugins - Starter Templates — Elementor, WordPress &amp; Beaver Builder Templates - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-14 17:57:39+0000\n"
+"PO-Revision-Date: 2022-10-12 15:18:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Starter Templates — Elementor, WordPress &amp; Beaver Builder Templates - Stable (latest release)\n"
+
+#: classes/class-astra-sites-admin.php:250
+msgid "View Blog Templates"
+msgstr "Ver plantillas de blog"
+
+#: classes/class-astra-sites-admin.php:249
+msgid "Customizable blog templates covering every niche. Page builder compatible, easy to use and fast!"
+msgstr "Plantillas de blog personalizables que cubren todos los nichos. ¡Compatible con maquetadores, fácil de usar y rápido!"
+
+#: classes/class-astra-sites-admin.php:241
+msgid "View Agency Templates"
+msgstr "Ver plantillas de agencia"
+
+#: classes/class-astra-sites-admin.php:240
+msgid "Do more in less time with Starter Templates. Pro-quality designs that can be fully customized to suit your clients."
+msgstr "Haz más en menos tiempo con las plantillas de inicio. Diseños de calidad profesional que pueden personalizarse al completo para que se adapten a tus clientes."
+
+#: classes/class-astra-sites-admin.php:232
+msgid "View Local Business Templates"
+msgstr "Ver plantillas de negocio local"
+
+#: classes/class-astra-sites-admin.php:231
+msgid "Fully customizable local business templates that can deliver a fully functioning website in minutes"
+msgstr "Plantillas de negocio local totalmente personalizables que pueden lanzar una web totalmente funcional en minutos"
+
+#: classes/class-astra-sites-admin.php:223
+msgid "View Ecommerce Templates"
+msgstr "Ver plantillas de comercio electrónico"
+
+#: classes/class-astra-sites-admin.php:222
+msgid "Looking for a fully operational eCommerce template to launch a store or level up an existing one?"
+msgstr "¿Buscas una plantilla de comercio electrónico totalmente operativa para lanzar una tienda o mejorar una existente?"
+
+#: classes/class-astra-sites-admin.php:221
+msgid "Ecommerce"
+msgstr "Comercio electrónico"
+
+#: classes/class-astra-sites-admin.php:210
+msgid "Get Started"
+msgstr "Primeros pasos"
+
+#: classes/class-astra-sites-admin.php:209
+msgid "Create professionally designed pixel-perfect websites in minutes."
+msgstr "Crea webs profesionales diseñadas con perfección al píxel en minutos."
+
+#: classes/class-astra-sites-admin.php:208
+msgid "Welcome to Starter Templates!"
+msgstr "¡Bienvenido a las plantillas de inicio!"
 
 #: inc/classes/class-astra-sites-importer.php:386
 #: inc/classes/class-astra-sites-importer.php:389
@@ -47,6 +95,11 @@ msgstr "Ha habido un error en tu web."
 msgid "There was an error on your website."
 msgstr "Ha habido un error en tu web."
 
+#: classes/class-astra-sites-admin.php:230
+#: inc/lib/onboarding/assets/src/steps/site-list/site-category-filter/index.js:61
+msgid "Local Business"
+msgstr "Negocio local"
+
 #: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php:95
 msgid "Invalid Post ID - %d"
 msgstr "ID de entrada no válido - %d"
@@ -69,6 +122,11 @@ msgstr "La biblioteca XMLReader no está disponible. Esta biblioteca es obligato
 #: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php:83
 msgid "Invalid Request URL - %s"
 msgstr "URL de la solicitud no válida - %s"
+
+#: classes/class-astra-sites-admin.php:248
+#: inc/lib/onboarding/assets/src/steps/site-list/site-category-filter/index.js:36
+msgid "Blog"
+msgstr "Blog"
 
 #: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php:186
 msgid "You are not authorized to perform this action."
@@ -142,13 +200,13 @@ msgstr "Enlaces rápidos"
 msgid "Already own an Essential or Growth Bundle? <a href=\"%s\" target=\"_blank\">Know how</a> to import premium templates."
 msgstr "¿Ya tienes un paquete Essential o Growth? <a href=\"%s\" target=\"_blank\">Aprende ahora</a> a importar plantillas premium."
 
-#: classes/class-astra-sites-admin.php:111
+#: classes/class-astra-sites-admin.php:112
 #: inc/lib/onboarding/assets/dist/main.js:5
 #: inc/lib/onboarding/assets/src/steps/site-list/index.js:269
 msgid "Get Essential Bundle"
 msgstr "Consigue el paquete Essential"
 
-#: classes/class-astra-sites-admin.php:110
+#: classes/class-astra-sites-admin.php:111
 msgid "Get unlimited access to all premium Starter Templates and more, at a single low cost!"
 msgstr "¡Consigue acceso ilimitado a todas las plantillas de inicio premium y más, y por un único y bajo precio!"
 
@@ -425,23 +483,23 @@ msgstr "La demostración que estás importando parece que no es válida. No se h
 msgid "Importing Starter Template..."
 msgstr "Importando plantilla de inicio…"
 
-#: classes/class-astra-sites-admin.php:173
+#: classes/class-astra-sites-admin.php:174
 msgid "I already did"
 msgstr "Ya lo he hecho"
 
-#: classes/class-astra-sites-admin.php:172
+#: classes/class-astra-sites-admin.php:173
 msgid "Nope, maybe later"
 msgstr "No, quizá más tarde"
 
-#: classes/class-astra-sites-admin.php:170
+#: classes/class-astra-sites-admin.php:171
 msgid "Ok, you deserve it"
 msgstr "Vale, te lo mereces"
 
-#: classes/class-astra-sites-admin.php:168
+#: classes/class-astra-sites-admin.php:169
 msgid "Could you please do us a BIG favor and give it a 5-star rating on WordPress? This would boost our motivation and help other users make a comfortable decision while choosing the Starter Templates."
 msgstr "¿Podrías hacernos un GRAN favor y darle una valoración de 5 estrellas en WordPress? Esto aumentaría nuestra motivación y ayudaría a otros usuarios a tomar una cómoda decisión al elegir Starter Templates."
 
-#: classes/class-astra-sites-admin.php:167
+#: classes/class-astra-sites-admin.php:168
 msgid "Hello! Seems like you have used Starter Templates to build this website &mdash; Thanks a ton!"
 msgstr "¡Hola! Parece que has usado Starter Templates para construir esta web — ¡Muchas gracias!"
 
@@ -1077,6 +1135,11 @@ msgstr "Plantillas de página"
 #: inc/includes/admin-page.php:269 inc/includes/admin-page.php:437
 msgid "Site Templates"
 msgstr "Plantillas de sitio"
+
+#: classes/class-astra-sites-admin.php:239
+#: inc/lib/onboarding/assets/src/steps/site-list/site-category-filter/index.js:56
+msgid "Agency"
+msgstr "Agency"
 
 #. translators: %s are white label strings.
 #. translators: %1$s External Link

@@ -1,2 +1,54 @@
 2022-10-13T08:23:45+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en /var/www/html/wp-includes/Requests/Transport/cURL.php en la línea 239
 
+2022-10-13T19:41:26+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /var/www/html/wp-content/plugins/coinbase-commerce/class-wc-gateway-coinbase.php:346
+Stack trace:
+#0 /var/www/html/wp-content/plugins/coinbase-commerce/class-wc-gateway-coinbase.php(299): WC_Gateway_Coinbase->_update_order_status(false, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(307): WC_Gateway_Coinbase->handle_webhook('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-api.php(161): do_action('woocommerce_api...')
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): WC_API->handle_api_requests(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(524): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#9 /va en /var/www/html/wp-content/plugins/coinbase-commerce/class-wc-gateway-coinbase.php en la línea 346
+
+2022-10-13T19:41:27+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /var/www/html/wp-content/plugins/coinbase-commerce/class-wc-gateway-coinbase.php:346
+Stack trace:
+#0 /var/www/html/wp-content/plugins/coinbase-commerce/class-wc-gateway-coinbase.php(299): WC_Gateway_Coinbase->_update_order_status(false, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(307): WC_Gateway_Coinbase->handle_webhook('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-api.php(161): do_action('woocommerce_api...')
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): WC_API->handle_api_requests(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(524): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#9 /va en /var/www/html/wp-content/plugins/coinbase-commerce/class-wc-gateway-coinbase.php en la línea 346
+
+2022-10-13T19:48:21+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /var/www/html/wp-content/plugins/coinbase-commerce/class-wc-gateway-coinbase.php:346
+Stack trace:
+#0 /var/www/html/wp-content/plugins/coinbase-commerce/class-wc-gateway-coinbase.php(299): WC_Gateway_Coinbase->_update_order_status(false, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(307): WC_Gateway_Coinbase->handle_webhook('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-api.php(161): do_action('woocommerce_api...')
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): WC_API->handle_api_requests(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(524): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#9 /va en /var/www/html/wp-content/plugins/coinbase-commerce/class-wc-gateway-coinbase.php en la línea 346
+
+2022-10-13T20:41:36+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in /var/www/html/wp-content/plugins/coinbase-commerce/class-wc-gateway-coinbase.php:346
+Stack trace:
+#0 /var/www/html/wp-content/plugins/coinbase-commerce/class-wc-gateway-coinbase.php(299): WC_Gateway_Coinbase->_update_order_status(false, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(307): WC_Gateway_Coinbase->handle_webhook('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-api.php(161): do_action('woocommerce_api...')
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): WC_API->handle_api_requests(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(524): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#9 /va en /var/www/html/wp-content/plugins/coinbase-commerce/class-wc-gateway-coinbase.php en la línea 346
+

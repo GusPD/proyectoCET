@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3556.27 1253.13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5d869d;
+        font-family: Jokerman-Regular, Jokerman;
+        font-size: 1000px;
+      }
+
+      .cls-2 {
+        font-family: ForteMT, Forte;
+        font-size: 200px;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(0 904.5) scale(1.27 1)"><tspan x="0" y="0">Away</tspan></text>
+  <text class="cls-2" transform="translate(3345.53 495.6)"><tspan x="0" y="0">SV</tspan></text>
+</svg>

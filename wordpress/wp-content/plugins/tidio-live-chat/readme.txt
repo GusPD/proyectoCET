@@ -4,7 +4,7 @@ Tags: free live chat, live chat, chat, chatbot, livechat, tidio, widget, zendesk
 Requires at least: 4.7
 Tested up to: 6.0
 Requires PHP: 5.6
-Stable tag: 5.4.1
+Stable tag: 5.4.3
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -197,6 +197,14 @@ Currently, Tidio is available in English and French. Other languages are in deve
 8. Visual Chatbot Editor - Build your bots from scratch by dragging and dropping elements.
 
 == Changelog ==
+
+= 5.4.3 =
+
+- Fix php function compatibility usage in notice
+
+= 5.4.2 =
+
+- Minor bugs related to notification fix
 
 = 5.4.1 =
 

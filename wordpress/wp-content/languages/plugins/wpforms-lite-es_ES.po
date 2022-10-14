@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form by WPForms &#8211; Drag &amp; Drop Form Builder for WordPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-30 17:28:13+0000\n"
+"PO-Revision-Date: 2022-10-12 15:13:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,11 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.3\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Contact Form by WPForms &#8211; Drag &amp; Drop Form Builder for WordPress - Stable (latest release)\n"
+
+#: lite/templates/admin/addons.php:56
+#: lite/templates/education/builder/providers-item.php:34
+msgid "Recommended"
+msgstr "Recomendado"
 
 #: templates/builder/templates-item.php:37
 msgid "Mark as Favorite"
@@ -98,7 +103,7 @@ msgstr "La dirección actual de remitente no coincide con el nombre de dominio d
 msgid "Anti-spam verification failed, please try again later."
 msgstr "La verificación anti spam ha fallado. Por favor, inténtalo de nuevo más tarde."
 
-#: src/Admin/Education/Fields.php:217
+#: src/Admin/Education/Fields.php:226
 msgid "PayPal Commerce"
 msgstr "PayPal Commerce"
 
@@ -763,7 +768,7 @@ msgstr "WPForms ahora ofrece copias de seguridad remotas de los registros de tu 
 msgid "One More Thing"
 msgstr "Una cosa más"
 
-#: lite/templates/admin/addons.php:39
+#: lite/templates/admin/addons.php:43
 msgid "logo"
 msgstr "logotipo"
 
@@ -1224,7 +1229,7 @@ msgstr "No se pudo instalar automáticamente el plugin. Por favor, <a href=\"%s\
 msgid "Square"
 msgstr "Square"
 
-#: src/Admin/Education/Fields.php:226
+#: src/Admin/Education/Fields.php:217
 msgid "Stripe Credit Card"
 msgstr "Tarjetas de crédito Stripe"
 
@@ -1526,7 +1531,7 @@ msgstr "Y"
 msgid "Unknown Addon"
 msgstr "Extensión desconocida"
 
-#: lite/templates/admin/addons.php:45
+#: lite/templates/admin/addons.php:49
 msgid "Learn more"
 msgstr "Aprender más"
 
@@ -7520,7 +7525,7 @@ msgstr "<strong>Nota:</strong> El plugin WPForms está desactivado en tu sitio h
 msgid "Your site is running an <strong>insecure version</strong> of PHP that is no longer supported. Please contact your web hosting provider to update your PHP version or switch to a <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">recommended WordPress hosting company</a>."
 msgstr "Tu sitio está ejecutando una <strong>versión insegura</strong> de PHP que ya no es compatible. Por favor, contacta con tu proveedor de alojamiento web para actualizar tu versión de PHP o cambia a una <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">empresa de alojamiento recomendada para WordPress</a>."
 
-#: includes/admin/class-welcome.php:286 lite/templates/admin/addons.php:55
+#: includes/admin/class-welcome.php:286 lite/templates/admin/addons.php:65
 #: src/Admin/Notifications/EventDriven.php:595
 #: src/Admin/Notifications/EventDriven.php:602
 #: src/Admin/Notifications/EventDriven.php:609
