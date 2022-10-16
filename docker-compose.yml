@@ -19,8 +19,8 @@ services:
       WORDPRESS_DB_USER: ${MYSQL_USER}
       WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD}  
       WORDPRESS_DB_NAME: ${MYSQL_DATABASE}
-      VIRTUAL_HOST: awaysv.ga       #debe ser un dominio válido y DNS apuntando a este servidor
-      LETSENCRYPT_HOST: awaysv.ga    #debe ser un dominio válido y DNS apuntando a este servidor   
+      VIRTUAL_HOST: awaysv.cf       #debe ser un dominio válido y DNS apuntando a este servidor
+      LETSENCRYPT_HOST: awaysv.cf    #debe ser un dominio válido y DNS apuntando a este servidor   
 
   mysql:
     image: mysql:8.0
