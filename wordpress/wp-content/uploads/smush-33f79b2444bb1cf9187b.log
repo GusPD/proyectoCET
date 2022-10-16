@@ -79,3 +79,94 @@
 [2022-10-16 07:09:17 : INFO] - Successfully optimized the image - /var/www/html/wp-content/uploads/2022/10/Separador-Trasparente.png.El archivo ha sido comprimido de 4.76 KB a 4.76 KB ahorrando un 0 por ciento utilizando WP-Optimize 
 [2022-10-16 07:09:17 : INFO] - Completed processing task with ID : 1, and type 'smush' 
 [2022-10-16 07:09:17 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2022-10-16 21:48:34 : INFO] - Re_Smush_It_Task server status: Online 
+[2022-10-16 21:48:35 : INFO] - 
+ 
+[2022-10-16 21:48:35 : INFO] - Header for logs at time:  Sun, 16 Oct 2022 21:48:35 +0000 on http://awaysv.cf 
+[2022-10-16 21:48:35 : INFO] - WP: 6.0.2 
+[2022-10-16 21:48:35 : INFO] - PHP: 7.4.32 (apache2handler, Linux 4b0300b60a1e 5.10.0-18-amd64 #1 SMP Debian 5.10.140-1 (2022-09-02) x86_64) 
+[2022-10-16 21:48:35 : INFO] - MySQL: 8.0.30 
+[2022-10-16 21:48:35 : INFO] - WPLANG: es_ES 
+[2022-10-16 21:48:35 : INFO] - Server: Apache/2.4.54 (Debian) 
+[2022-10-16 21:48:35 : INFO] - Outbound connections: N 
+[2022-10-16 21:48:35 : INFO] - safe_mode: 0 
+[2022-10-16 21:48:35 : INFO] - max_execution_time: 30 
+[2022-10-16 21:48:35 : INFO] - memory_limit: 128M (used: 37.9M | 8M) 
+[2022-10-16 21:48:35 : INFO] - multisite: N 
+[2022-10-16 21:48:35 : INFO] - openssl: OpenSSL 1.1.1n  15 Mar 2022 
+[2022-10-16 21:48:35 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2022-10-16 21:48:35 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2022-10-16 21:48:35 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2022-10-16 21:48:35 : INFO] - Processing task with ID : 2, and type 'smush' 
+[2022-10-16 21:48:35 : INFO] - Task with ID 2 and type (smush) failed with error code invalid_file_type - /var/www/html/wp-content/uploads/2022/10/P0031.webp - cannot be optimized, it has an invalid file type 
+[2022-10-16 21:48:35 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2022-10-16 21:48:35 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2022-10-16 21:48:35 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2022-10-16 21:48:35 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2022-10-16 22:15:00 : INFO] - Re_Smush_It_Task server status: Online 
+[2022-10-16 22:15:01 : INFO] - Processing task with ID : 3, and type 'smush' 
+[2022-10-16 22:15:01 : INFO] - Processing task with ID : 3, and type 'smush' 
+[2022-10-16 22:15:01 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:01 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:01 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:01 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:01 : INFO] - 60 
+[2022-10-16 22:15:01 : INFO] - 60 
+[2022-10-16 22:15:02 : INFO] - Backing up the original image - 2022/10/Frigidaire-Logo-updraft-pre-smush-original.png 
+[2022-10-16 22:15:02 : INFO] - Backing up the original image - 2022/10/Frigidaire-Logo-updraft-pre-smush-original.png 
+[2022-10-16 22:15:02 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:02 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:02 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:02 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:02 : INFO] - 60 
+[2022-10-16 22:15:02 : INFO] - 60 
+[2022-10-16 22:15:03 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:03 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:03 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:03 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:03 : INFO] - 60 
+[2022-10-16 22:15:03 : INFO] - 60 
+[2022-10-16 22:15:05 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:05 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:05 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:05 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:05 : INFO] - 60 
+[2022-10-16 22:15:05 : INFO] - 60 
+[2022-10-16 22:15:06 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:06 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:06 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:06 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:06 : INFO] - 60 
+[2022-10-16 22:15:06 : INFO] - 60 
+[2022-10-16 22:15:07 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:07 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:07 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:07 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:07 : INFO] - 60 
+[2022-10-16 22:15:07 : INFO] - 60 
+[2022-10-16 22:15:13 : INFO] - Task with ID 3 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2022-10-16 22:15:13 : INFO] - Task with ID 3 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2022-10-16 22:15:13 : INFO] - data: {"src":"http:\/\/par2.static.resmush.it\/5a7ce8b30fc6536a66dd7357aba229c1\/_src_Frigidaire-Logo-1536x864.png","dest":"http:\/\/par2.static.resmush.it\/5a7ce8b30fc6536a66dd7357aba229c1\/Frigidaire-Logo-1536x864.png","src_size":9107,"dest_size":9103,"percent":0,"output":"json","expires":"Mon, 17 Oct 2022 00:20:08 +0200","generator":"reSmush.it rev.3.0.4.20210124"} 
+[2022-10-16 22:15:13 : INFO] - data: {"src":"http:\/\/par2.static.resmush.it\/5a7ce8b30fc6536a66dd7357aba229c1\/_src_Frigidaire-Logo-1536x864.png","dest":"http:\/\/par2.static.resmush.it\/5a7ce8b30fc6536a66dd7357aba229c1\/Frigidaire-Logo-1536x864.png","src_size":9107,"dest_size":9103,"percent":0,"output":"json","expires":"Mon, 17 Oct 2022 00:20:08 +0200","generator":"reSmush.it rev.3.0.4.20210124"} 
+[2022-10-16 22:15:13 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:13 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:13 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:13 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:13 : INFO] - 60 
+[2022-10-16 22:15:13 : INFO] - 60 
+[2022-10-16 22:15:14 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:14 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:14 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:14 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:14 : INFO] - 60 
+[2022-10-16 22:15:14 : INFO] - 60 
+[2022-10-16 22:15:15 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:15 : INFO] - Re_Smush_It_Task - attachment ID : 5858, started on : October 16, 2022 10:15:01 
+[2022-10-16 22:15:15 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:15 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 22:15:15 : INFO] - 60 
+[2022-10-16 22:15:15 : INFO] - 60 
+[2022-10-16 22:15:16 : INFO] - Successfully optimized the image - /var/www/html/wp-content/uploads/2022/10/Frigidaire-Logo.png.El archivo ha sido comprimido de 9.86 KB a 9.86 KB ahorrando un 0 por ciento utilizando WP-Optimize 
+[2022-10-16 22:15:16 : INFO] - Successfully optimized the image - /var/www/html/wp-content/uploads/2022/10/Frigidaire-Logo.png.El archivo ha sido comprimido de 9.86 KB a 9.86 KB ahorrando un 0 por ciento utilizando WP-Optimize 
+[2022-10-16 22:15:16 : INFO] - Completed processing task with ID : 3, and type 'smush' 
+[2022-10-16 22:15:16 : INFO] - Completed processing task with ID : 3, and type 'smush' 
