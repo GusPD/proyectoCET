@@ -1,0 +1,81 @@
+[2022-10-16 07:08:44 : INFO] - Re_Smush_It_Task server status: Online 
+[2022-10-16 07:08:45 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2022-10-16 07:08:45 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2022-10-16 07:08:45 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:45 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:45 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:45 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:45 : INFO] - 65 
+[2022-10-16 07:08:45 : INFO] - 65 
+[2022-10-16 07:08:46 : INFO] - Backing up the original image - 2022/10/Separador-Trasparente-updraft-pre-smush-original.png 
+[2022-10-16 07:08:46 : INFO] - Backing up the original image - 2022/10/Separador-Trasparente-updraft-pre-smush-original.png 
+[2022-10-16 07:08:46 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:46 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:46 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:46 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:46 : INFO] - 65 
+[2022-10-16 07:08:46 : INFO] - 65 
+[2022-10-16 07:08:47 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:47 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:47 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:47 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:47 : INFO] - 65 
+[2022-10-16 07:08:47 : INFO] - 65 
+[2022-10-16 07:08:48 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:48 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:48 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:48 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:48 : INFO] - 65 
+[2022-10-16 07:08:48 : INFO] - 65 
+[2022-10-16 07:08:50 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:50 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:50 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:50 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:50 : INFO] - 65 
+[2022-10-16 07:08:50 : INFO] - 65 
+[2022-10-16 07:08:51 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:51 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:51 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:51 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:51 : INFO] - 65 
+[2022-10-16 07:08:51 : INFO] - 65 
+[2022-10-16 07:08:52 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:52 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:52 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:52 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:52 : INFO] - 65 
+[2022-10-16 07:08:52 : INFO] - 65 
+[2022-10-16 07:08:58 : INFO] - Task with ID 1 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2022-10-16 07:08:58 : INFO] - Task with ID 1 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2022-10-16 07:08:58 : INFO] - data: {"src":"http:\/\/par4.static.resmush.it\/5f150cbb24ad9af29204756ce1522959\/_src_Separador-Trasparente-2048x124.png","dest":"http:\/\/par4.static.resmush.it\/5f150cbb24ad9af29204756ce1522959\/Separador-Trasparente-2048x124.png","src_size":3178,"dest_size":3178,"percent":0,"output":"json","expires":"Sun, 16 Oct 2022 09:13:52 +0200","generator":"reSmush.it rev.3.0.4.20210124"} 
+[2022-10-16 07:08:58 : INFO] - data: {"src":"http:\/\/par4.static.resmush.it\/5f150cbb24ad9af29204756ce1522959\/_src_Separador-Trasparente-2048x124.png","dest":"http:\/\/par4.static.resmush.it\/5f150cbb24ad9af29204756ce1522959\/Separador-Trasparente-2048x124.png","src_size":3178,"dest_size":3178,"percent":0,"output":"json","expires":"Sun, 16 Oct 2022 09:13:52 +0200","generator":"reSmush.it rev.3.0.4.20210124"} 
+[2022-10-16 07:08:58 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:58 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:08:58 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:58 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:08:58 : INFO] - 65 
+[2022-10-16 07:08:58 : INFO] - 65 
+[2022-10-16 07:09:03 : INFO] - Task with ID 1 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2022-10-16 07:09:03 : INFO] - Task with ID 1 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2022-10-16 07:09:03 : INFO] - data: {"src":"http:\/\/par3.static.resmush.it\/7f8d469f859a00bedcb56dcadc459b72\/_src_Separador-Trasparente-300x258.png","dest":"http:\/\/par3.static.resmush.it\/7f8d469f859a00bedcb56dcadc459b72\/Separador-Trasparente-300x258.png","src_size":3676,"dest_size":3676,"percent":0,"output":"json","expires":"Sun, 16 Oct 2022 09:13:58 +0200","generator":"reSmush.it rev.3.0.4.20210124"} 
+[2022-10-16 07:09:03 : INFO] - data: {"src":"http:\/\/par3.static.resmush.it\/7f8d469f859a00bedcb56dcadc459b72\/_src_Separador-Trasparente-300x258.png","dest":"http:\/\/par3.static.resmush.it\/7f8d469f859a00bedcb56dcadc459b72\/Separador-Trasparente-300x258.png","src_size":3676,"dest_size":3676,"percent":0,"output":"json","expires":"Sun, 16 Oct 2022 09:13:58 +0200","generator":"reSmush.it rev.3.0.4.20210124"} 
+[2022-10-16 07:09:03 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:09:03 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:09:03 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:09:03 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:09:03 : INFO] - 65 
+[2022-10-16 07:09:03 : INFO] - 65 
+[2022-10-16 07:09:16 : INFO] - Task with ID 1 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2022-10-16 07:09:16 : INFO] - Task with ID 1 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2022-10-16 07:09:16 : INFO] - data: {"src":"http:\/\/par5.static.resmush.it\/4fe7fbf0dbd5461447b7c7a5d4084be9\/_src_Separador-Trasparente-600x36.png","dest":"http:\/\/par5.static.resmush.it\/4fe7fbf0dbd5461447b7c7a5d4084be9\/Separador-Trasparente-600x36.png","src_size":922,"dest_size":922,"percent":0,"output":"json","expires":"Sun, 16 Oct 2022 09:14:11 +0200","generator":"reSmush.it rev.3.0.4.20210124"} 
+[2022-10-16 07:09:16 : INFO] - data: {"src":"http:\/\/par5.static.resmush.it\/4fe7fbf0dbd5461447b7c7a5d4084be9\/_src_Separador-Trasparente-600x36.png","dest":"http:\/\/par5.static.resmush.it\/4fe7fbf0dbd5461447b7c7a5d4084be9\/Separador-Trasparente-600x36.png","src_size":922,"dest_size":922,"percent":0,"output":"json","expires":"Sun, 16 Oct 2022 09:14:11 +0200","generator":"reSmush.it rev.3.0.4.20210124"} 
+[2022-10-16 07:09:16 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:09:16 : INFO] - Re_Smush_It_Task - attachment ID : 5768, started on : October 16, 2022 07:08:44 
+[2022-10-16 07:09:16 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:09:16 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-10-16 07:09:16 : INFO] - 65 
+[2022-10-16 07:09:16 : INFO] - 65 
+[2022-10-16 07:09:17 : INFO] - Successfully optimized the image - /var/www/html/wp-content/uploads/2022/10/Separador-Trasparente.png.El archivo ha sido comprimido de 4.76 KB a 4.76 KB ahorrando un 0 por ciento utilizando WP-Optimize 
+[2022-10-16 07:09:17 : INFO] - Successfully optimized the image - /var/www/html/wp-content/uploads/2022/10/Separador-Trasparente.png.El archivo ha sido comprimido de 4.76 KB a 4.76 KB ahorrando un 0 por ciento utilizando WP-Optimize 
+[2022-10-16 07:09:17 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2022-10-16 07:09:17 : INFO] - Completed processing task with ID : 1, and type 'smush' 
